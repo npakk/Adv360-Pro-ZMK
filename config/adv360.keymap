@@ -22,7 +22,13 @@
   behaviors {
     #include "macros.dtsi"
     #include "version.dtsi"
-    #include "behaviors.keymap"
+
+    gresc: ime_off {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <59>;
+        bindings = <&kp LANG1>, <&kp LANG2>;
+        mods = <(MOD_LSFT)>;
+    };
 
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
