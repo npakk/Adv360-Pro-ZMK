@@ -35,9 +35,9 @@ label = "macro_kinesis";
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
 
-gresc: grave_escape {
+gresc: change_ime {
   compatible = "zmk,behavior-mod-morph";
-  label = "GRAVE_ESCAPE";
+  label = "CHANGE_IME";
   #binding-cells = <0>;
   bindings = <&kp LANGUAGE_1>, <&kp LANGUAGE_2>;
   mods = <(MOD_LSFT)>;
