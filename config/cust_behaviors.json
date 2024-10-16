@@ -1,1 +1,10 @@
-[]
+[
+	{
+		"code": "&gresc",
+		"name": "&gresc",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	}
+]
