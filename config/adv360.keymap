@@ -19,6 +19,8 @@
 #include <dt-bindings/zmk/backlight.h>
 
 / {
+  #include "combos.keymap"
+
   behaviors {
     #include "macros.dtsi"
     #include "version.dtsi"
