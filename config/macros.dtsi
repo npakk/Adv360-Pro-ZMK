@@ -39,6 +39,6 @@ gresc: grave_escape {
   compatible = "zmk,behavior-mod-morph";
   label = "GRAVE_ESCAPE";
   #binding-cells = <0>;
-  bindings = <&kp ESC>, <&kp GRAVE>;
+  bindings = <&kp LANGUAGE_1>, <&kp LANGUAGE_2>;
   mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
 };
