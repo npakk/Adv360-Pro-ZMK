@@ -40,3 +40,10 @@ label = "macro_";
 #binding-cells = <0>;
 bindings = <&kp LANG1>, <&kp LANG2>;
 };
+gresc: ime_off {
+  compatible = "zmk,behavior-mod-morph";
+  label = "IME_OFF";
+  #binding-cells = <0>;
+  bindings = <&kp LANG1>, <&kp LANG2>;
+  mods = <(MOD_LSFT)>;
+};
