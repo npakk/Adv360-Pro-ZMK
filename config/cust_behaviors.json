@@ -1,1 +1,10 @@
-[]
+[
+	{
+		"code": "&lang12",
+		"name": "&lang12",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	}
+]

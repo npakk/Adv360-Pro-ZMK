@@ -34,10 +34,3 @@ label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
-
-lang12: lang1_lang2 {
-  compatible = "zmk,behavior-mod-morph";
-  #binding-cells = <0>;
-  bindings = <&kp LANGUAGE_1>, <&kp LANGUAGE_2>;
-  mods = <(MOD_LSFT)>;
-};
