@@ -22,7 +22,6 @@
   behaviors {
     #include "macros.dtsi"
     #include "version.dtsi"
-    #include "extra_morphs.dtsi"
 
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
